@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cat-app
+  description: Python app that displays time - named cat-app
+  annotations:
+    github.com/project-slug: ricardoandre-97/cat-app
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
